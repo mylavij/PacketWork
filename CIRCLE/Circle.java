@@ -17,7 +17,7 @@ public class Circle {
     }
 
     public void changeR( double r ) {
-        
+        radius = r;
 
     }
 }
