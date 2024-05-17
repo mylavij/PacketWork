@@ -1,17 +1,14 @@
 package DICE;
 
 public class DiceRunner {
-    private int die1, die2;
+    public static void main (String[] args){
+        Dice d = new Dice();
+        d.roll();
+        int n = d.getTotal();
+        System.out.println( n );
 
-    public Dice(){
-        die1 = 1;
-        die2 = 1;
+        d.roll();
+        n = d.getTotal();
+        System.out.println( n );
     }
-
-    public void roll(){
-        die1 = (int)(6*Math.random()) + 1;
-        die2 = (int)(6*Math.random()) + 1;
-    }
-
-    
 }
