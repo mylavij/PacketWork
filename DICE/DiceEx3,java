@@ -1,6 +1,6 @@
 package DICE;
 
-public class DiceRunner {
+public class DiceEx3a {
   private int die1, die2;
   private Random random;
 
