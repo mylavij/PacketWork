@@ -1,1 +1,21 @@
+package DICE;
 
+public class DiceRunner {
+  private int die1, die2;
+  private Random random;
+
+public Dice(){
+  random = new Random();
+  roll();
+  }
+
+public void roll(){
+  die1 = random.nextInt(6) + 1; 
+  die2 = random.nextInt(6) + 1;
+  }
+
+public int getTotal(){
+  return die1 + die;
+  }
+
+}
